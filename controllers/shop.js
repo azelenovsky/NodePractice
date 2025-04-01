@@ -19,7 +19,6 @@ exports.getProduct = (req, res, next) => {
             path:'/products'
         });
     });
-    res.redirect('/');
 }
 
 exports.getIndex = (req, res, next) => {
