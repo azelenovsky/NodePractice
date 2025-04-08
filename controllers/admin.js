@@ -48,6 +48,7 @@ exports.postEditProduct = (req, res, next) => {
         prodId, updatedTitle, updatedImageURL, updatedDesc, updatedPrice);
     console.log(updatedProduct);
     updatedProduct.save();
+    res.redirect('/admin/products');
 };
 
 exports.getProducts = (req, res, next) => {
