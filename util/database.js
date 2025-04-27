@@ -4,7 +4,7 @@ const pool = mysql.createPoolCluster({
     host: "localhost",
     user: "root",
     database: "node-complete",
-    password: "nodecomplete"
+    password: "root"
 });
 
 module.exports = pool.promise();
